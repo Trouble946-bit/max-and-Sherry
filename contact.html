@@ -19,8 +19,15 @@
   </nav>
 
   <section class="page-header">
-    <h1>Contact Us</h1>
-    <p>We'd love to hear from you</p>
+    <div class="floating-images">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop" alt="Food" class="float-img float-1" />
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop" alt="Pizza" class="float-img float-2" />
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=200&h=200&fit=crop" alt="Cake" class="float-img float-3" />
+    </div>
+    <div class="header-content">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you</p>
+    </div>
   </section>
 
   <section class="contact-section">
@@ -76,5 +83,21 @@
     </div>
   </footer>
   <script src="script.js"></script>
+  <script>
+    // Pre-fill form from URL parameters
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const item = urlParams.get('item');
+      const price = urlParams.get('price');
+      
+      if (item) {
+        const subjectField = document.getElementById('subject');
+        const messageField = document.getElementById('message');
+        
+        subjectField.value = `Order: ${item}`;
+        messageField.value = `I would like to order ${item}${price ? ' (MWK ' + price + ')' : ''}.\n\nPlease provide me with more details about availability and delivery options.\n\nThank you!`;
+      }
+    });
+  </script>
 </body>
 </html>

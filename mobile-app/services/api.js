@@ -4,7 +4,7 @@ import axios from 'axios';
 // For local testing: http://10.0.2.2:3000 (Android Emulator)
 // For local testing: http://localhost:3000 (iOS Simulator)
 // For production: your deployed backend URL
-const API_BASE_URL = 'http://10.0.2.2:3000/api';
+const API_BASE_URL = 'http://192.168.43.252:3000/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,

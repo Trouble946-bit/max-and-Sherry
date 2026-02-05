@@ -402,3 +402,27 @@ fadeInUpStyle.textContent = `
   }
 `;
 document.head.appendChild(fadeInUpStyle);
+
+// Hero Background Slideshow
+function initHeroSlideshow() {
+  const slides = document.querySelectorAll('.hero-slide');
+  if (slides.length === 0) return;
+  
+  let currentSlide = 0;
+  
+  function nextSlide() {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }
+  
+  // Change slide every 4 seconds
+  setInterval(nextSlide, 4000);
+}
+
+// Initialize slideshow on page load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initHeroSlideshow);
+} else {
+  initHeroSlideshow();
+}
