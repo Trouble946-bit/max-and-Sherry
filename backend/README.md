@@ -1,6 +1,6 @@
-# Grace Bites Backend API
+# Max and Sherry Backend API
 
-Backend server for Grace Bites food ordering system.
+Backend server for Max and Sherry food ordering system.
 
 ## Trial Version Features
 - In-memory data storage (no database required)

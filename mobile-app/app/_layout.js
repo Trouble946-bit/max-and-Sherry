@@ -18,7 +18,7 @@ export default function Layout() {
         <Stack.Screen
           name="index"
           options={{
-            title: 'Grace Bites',
+            title: 'Max and Sherry',
             headerShown: true,
           }}
         />

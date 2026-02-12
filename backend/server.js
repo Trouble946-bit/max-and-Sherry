@@ -165,7 +165,7 @@ app.patch('/api/orders/:id/status', (req, res) => {
 app.get('/api/health', (req, res) => {
   res.json({ 
     success: true, 
-    message: 'Grace Bites API is running',
+    message: 'Max and Sherry API is running',
     version: '1.0.0 (Trial)',
     timestamp: new Date().toISOString()
   });
@@ -174,7 +174,7 @@ app.get('/api/health', (req, res) => {
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({
-    message: 'Welcome to Grace Bites API',
+    message: 'Welcome to Max and Sherry API',
     version: '1.0.0 (Trial Version)',
     endpoints: {
       menu: '/api/menu',
@@ -186,6 +186,6 @@ app.get('/', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Grace Bites Backend running on port ${PORT}`);
+  console.log(`Max and Sherry Backend running on port ${PORT}`);
   console.log(`API endpoints available at http://localhost:${PORT}/api`);
 });

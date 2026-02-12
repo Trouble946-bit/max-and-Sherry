@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide - Grace Bites
+# 🚀 Quick Start Guide - Max and Sherry
 
 ## What You Have
 

@@ -1,6 +1,6 @@
-# Grace Bites Mobile App
+# Max and Sherry Mobile App
 
-Food ordering app for Grace Bites - Trial Version
+Food ordering app for Max and Sherry - Trial Version
 
 ## Features
 

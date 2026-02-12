@@ -16,7 +16,7 @@ export default function Home() {
         {/* Hero Section */}
         <View style={styles.hero}>
           <Text style={styles.heroTitle}>Welcome to</Text>
-          <Text style={styles.heroLogo}>Grace Bites</Text>
+          <Text style={styles.heroLogo}>Max and Sherry</Text>
           <Text style={styles.heroSubtitle}>Delicious Food Delivered to You</Text>
           <Text style={styles.trialBadge}>🎉 TRIAL VERSION</Text>
         </View>

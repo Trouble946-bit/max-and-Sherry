@@ -1,7 +1,7 @@
 {
   "name": "grace-bites-backend",
   "version": "1.0.0",
-  "description": "Backend API for Grace Bites food ordering",
+  "description": "Backend API for Max and Sherry food ordering",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

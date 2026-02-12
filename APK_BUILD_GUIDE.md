@@ -1,4 +1,4 @@
-# 📦 Build Grace Bites Android APK - Simple Steps
+# 📦 Build Max and Sherry Android APK - Simple Steps
 
 ## Step 1: Create Expo Account (Free)
 
@@ -42,7 +42,7 @@ eas build --platform android --profile preview
 3. **Download the APK** to your phone
 4. **Enable "Install Unknown Apps"** in phone settings
 5. **Tap the APK** to install
-6. **Open Grace Bites** app!
+6. **Open Max and Sherry** app!
 
 ---
 

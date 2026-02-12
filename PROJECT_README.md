@@ -1,4 +1,4 @@
-# Grace Bites - Complete Food Ordering System
+# Max and Sherry - Complete Food Ordering System
 
 A complete food ordering platform with website and mobile app (Trial Version).
 
@@ -268,7 +268,7 @@ Trial Version - For demonstration purposes
 
 ## 👨‍💻 Developer
 
-Grace Bites Food Ordering System v1.0.0 (Trial)
+Max and Sherry Food Ordering System v1.0.0 (Trial)
 
 ---
 

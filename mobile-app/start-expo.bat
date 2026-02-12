@@ -2,7 +2,7 @@
 cd /d "c:\Users\Fa\Documents\Anenenji\Programming\grace-bites\mobile-app"
 echo.
 echo ======================================
-echo   GRACE BITES - EXPO GO TESTING
+echo   MAX AND SHERRY - EXPO GO TESTING
 echo ======================================
 echo.
 echo Starting Expo Dev Server...

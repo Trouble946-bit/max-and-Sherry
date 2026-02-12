@@ -1,4 +1,4 @@
-# Grace Bites - Food Website with Backend
+# Max and Sherry - Food Website with Backend
 
 A beautiful, responsive food website built with HTML, CSS, JavaScript, and Express.js backend for form submissions.
 
@@ -44,7 +44,7 @@ A beautiful, responsive food website built with HTML, CSS, JavaScript, and Expre
 
 4. **Open in browser:**
    - Open your browser and go to `http://localhost:3000`
-   - You should see the Grace Bites home page
+   - You should see the Max and Sherry home page
 
 ### Development Mode (with auto-reload)
 ```powershell

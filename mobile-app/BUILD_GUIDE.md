@@ -1,4 +1,4 @@
-# 📦 Building Grace Bites Android App (APK Installer)
+# 📦 Building Max and Sherry Android App (APK Installer)
 
 ## Option 1: Easiest - Use Expo Go (Recommended for Trial)
 
