@@ -98,7 +98,7 @@ Look for **IPv4 Address** under your WiFi adapter (e.g., 192.168.1.100)
 
 ```powershell
 # 1. Login (one-time)
-cd c:\Users\Fa\Documents\Anenenji\Programming\grace-bites\mobile-app
+cd c:\Users\Fa\Documents\Anenenji\Programming\max-and-sherry\mobile-app
 eas login
 
 # 2. Build APK (takes 10-20 minutes)

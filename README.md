@@ -28,7 +28,7 @@ A beautiful, responsive food website built with HTML, CSS, JavaScript, and Expre
 
 1. **Navigate to project folder:**
    ```powershell
-   cd "C:\Users\Fa\Documents\Anenenji\Programming\grace-bites"
+   cd "C:\Users\Fa\Documents\Anenenji\Programming\max-and-sherry"
    ```
 
 2. **Install dependencies:**
@@ -123,7 +123,7 @@ DELETE /api/submissions/:id
 ## File Structure
 
 ```
-grace-bites/
+max-and-sherry/
 ├── index.html          # Home page
 ├── gallery.html        # Gallery page
 ├── contact.html        # Contact page
@@ -176,7 +176,7 @@ Edit CSS variables in `styles.css`:
 
 **Local MongoDB:**
 ```
-MONGODB_URI=mongodb://localhost:27017/grace-bites
+MONGODB_URI=mongodb://localhost:27017/max-and-sherry
 ```
 
 **MongoDB Atlas (Cloud):**
@@ -185,7 +185,7 @@ MONGODB_URI=mongodb://localhost:27017/grace-bites
 3. Get connection string
 4. Update `.env`:
    ```
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/grace-bites
+   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/max-and-sherry
    ```
 
 ## Features in Detail
@@ -236,7 +236,7 @@ To deploy to production (Heroku, AWS, DigitalOcean, Vercel, etc.):
 
 Quick Heroku Deploy:
 ```powershell
-heroku create grace-bites-app
+heroku create max-and-sherry-app
 heroku config:set MONGODB_URI=your-mongodb-connection-string
 heroku config:set EMAIL_USER=your-email@gmail.com
 heroku config:set EMAIL_PASSWORD=your-app-password
@@ -244,7 +244,7 @@ git push heroku main
 heroku open
 ```
 
-Your app will be live at `https://grace-bites-app.herokuapp.com`
+Your app will be live at `https://max-and-sherry-app.herokuapp.com`
 
 ## Next Steps
 

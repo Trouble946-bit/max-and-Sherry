@@ -2,7 +2,7 @@
 
 ## What You Have
 
-✅ **Static Website** - Already live at: https://trouble946-bit.github.io/grace-bites/
+✅ **Static Website** - Already live at: https://trouble946-bit.github.io/max-and-sherry/
 ✅ **Backend API** - Node.js server for food ordering
 ✅ **Android App** - React Native mobile app (Trial Version)
 
@@ -98,7 +98,7 @@ Already configured - uses `http://10.0.2.2:3000`
 - Browse food gallery
 - Contact form
 - Information display
-- **Lives at:** https://trouble946-bit.github.io/grace-bites/
+- **Lives at:** https://trouble946-bit.github.io/max-and-sherry/
 
 ### Backend API
 - Stores menu items
@@ -148,7 +148,7 @@ Already configured - uses `http://10.0.2.2:3000`
 ## 📂 Project Structure
 
 ```
-grace-bites/
+max-and-sherry/
 ├── index.html          # Website homepage
 ├── gallery.html        # Food gallery
 ├── contact.html        # Contact page

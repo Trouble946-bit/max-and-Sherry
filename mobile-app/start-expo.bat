@@ -1,5 +1,5 @@
 @echo off
-cd /d "c:\Users\Fa\Documents\Anenenji\Programming\grace-bites\mobile-app"
+cd /d "c:\Users\Fa\Documents\Anenenji\Programming\max-and-sherry\mobile-app"
 echo.
 echo ======================================
 echo   MAX AND SHERRY - EXPO GO TESTING

@@ -5,7 +5,7 @@ A complete food ordering platform with website and mobile app (Trial Version).
 ## 🌟 Project Structure
 
 ```
-grace-bites/
+max-and-sherry/
 ├── Website (Static)
 │   ├── index.html
 │   ├── gallery.html
@@ -151,7 +151,7 @@ eas build --platform android --profile preview
 
 ### Website
 - Already deployed to GitHub Pages
-- URL: https://trouble946-bit.github.io/grace-bites/
+- URL: https://trouble946-bit.github.io/max-and-sherry/
 
 ### Backend (Choose one)
 - **Render:** https://render.com (Free tier available)
